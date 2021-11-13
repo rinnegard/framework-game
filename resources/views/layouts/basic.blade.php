@@ -5,6 +5,7 @@
         <title>Hello</title>
     </head>
     <body>
+        @include("nav")
         @yield("content")
     </body>
 </html>
