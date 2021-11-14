@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GameController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,4 @@ Route::get('/hello', function () {
     return view('hello', ["name" => "World"]);
 })->name("hello");;
 
-Route::get('/game21', function () {
-    return view('game21');
-})->name("game21");;
+Route::get('/game21', [GameController::class, 'start']);
