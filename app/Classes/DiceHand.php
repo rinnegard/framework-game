@@ -22,7 +22,8 @@ class DiceHand
     {
         $this->dice = array_values($this->dice);
         $this->lastSum = 0;
-        for ($i = 0; $i < count($this->dice); $i++) {
+        $count = count($this->dice);
+        for ($i = 0; $i < $count; $i++) {
             $this->dice[$i]->roll();
             $this->lastSum += $this->dice[$i]->getFace();
         }

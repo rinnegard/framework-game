@@ -16,6 +16,9 @@
     <exclude-pattern>database</exclude-pattern>
     <exclude-pattern>config</exclude-pattern>
     <exclude-pattern>public</exclude-pattern>
+    <exclude-pattern>console</exclude-pattern>
+    <exclude-pattern>app/Models</exclude-pattern>
+    <exclude-pattern>routes</exclude-pattern>
 
     <arg name="encoding" value="utf-8"/>
     <arg name="warning-severity" value="0"/>

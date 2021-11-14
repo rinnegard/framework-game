@@ -10,8 +10,23 @@
         Custom rule set for mvc course.
     </description>
 
+    <exclude-pattern>.bin</exclude-pattern>
+    <exclude-pattern>build</exclude-pattern>
     <exclude-pattern>cache</exclude-pattern>
+    <exclude-pattern>doc</exclude-pattern>
+    <exclude-pattern>theme</exclude-pattern>
     <exclude-pattern>vendor</exclude-pattern>
+    <exclude-pattern>storage</exclude-pattern>
+    <exclude-pattern>tests</exclude-pattern>
+    <exclude-pattern>server.php</exclude-pattern>
+    <exclude-pattern>database</exclude-pattern>
+    <exclude-pattern>config</exclude-pattern>
+    <exclude-pattern>public</exclude-pattern>
+    <exclude-pattern>console</exclude-pattern>
+    <exclude-pattern>app/Models</exclude-pattern>
+    <exclude-pattern>routes</exclude-pattern>
+    <exclude-pattern>Exceptions</exclude-pattern>
+    <exclude-pattern>Providers</exclude-pattern>
 
     <rule ref="rulesets/design.xml" />
     <rule ref="rulesets/cleancode.xml" />
