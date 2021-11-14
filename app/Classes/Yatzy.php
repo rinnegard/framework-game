@@ -76,8 +76,11 @@ class Yatzy
 
     public function roll(): void
     {
-        $this->throws++;
-        $this->playerDiceHand->roll();
+        if ($this->throws < 3) {
+            $this->throws++;
+            $this->playerDiceHand->roll();
+        }
+
     }
 
     public function calcScore(): void
