@@ -15,9 +15,13 @@ class YatzyController extends BaseController
 
     public function start(Request $request)
     {
+        $data = [
+            "header" => "Yatzy!!",
+            "message" => "Let's play!",
+        ];
         $yatzy = app()->make(Yatzy::class);
         $request->session()->put('yatzy', $yatzy);
-        return view("yatzy");
+        return view("yatzy", $data);
     }
 
     public function run(Request $request)
