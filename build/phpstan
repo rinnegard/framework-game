@@ -1,23 +1,5 @@
- ------ -------------------------------------------------------------------- 
- [32m Line [39m [32m app\Classes\Yatzy.php                                              [39m 
- ------ -------------------------------------------------------------------- 
-[39;49m  10     Used function Mos\Functions\destroySession not found.[39;49m[39;49m               [39;49m
-[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols  
-[39;49m  11     Used function Mos\Functions\renderView not found.[39;49m[39;49m                   [39;49m
-[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols  
-[39;49m  12     Used function Mos\Functions\renderTwigView not found.[39;49m[39;49m               [39;49m
-[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols  
-[39;49m  13     Used function Mos\Functions\url not found.[39;49m[39;49m                          [39;49m
-[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols  
- ------ -------------------------------------------------------------------- 
 
- ------ ------------------------------------------------------------------------------------------------------------------ 
- [32m Line [39m [32m app\Http\Middleware\Authenticate.php                                                                             [39m 
- ------ ------------------------------------------------------------------------------------------------------------------ 
-  17     Method App\Http\Middleware\Authenticate::redirectTo() should return string|null but return statement is missing.  
- ------ ------------------------------------------------------------------------------------------------------------------ 
-
-[37;41m                                                                                                                        [39;49m
-[37;41m [ERROR] Found 5 errors                                                                                                 [39;49m
-[37;41m                                                                                                                        [39;49m
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] No errors                                                                                                         [39;49m
+[30;42m                                                                                                                        [39;49m
 

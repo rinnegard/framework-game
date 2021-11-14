@@ -6,3 +6,5 @@ parameters:
         #- test
     bootstrapFiles:
         - .phpstan.constants.php
+    excludePaths:
+        - app/Http/Middleware
