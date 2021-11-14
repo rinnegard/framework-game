@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GameController;
+use App\Http\Controllers\YatzyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +16,9 @@ use App\Http\Controllers\GameController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-})->name("welcome");
-
-Route::get('/hello', function () {
     return view('hello', ["name" => "World"]);
 })->name("hello");;
 
-Route::get('/game21', [GameController::class, 'start']);
+Route::get('/game21', [GameController::class, 'start'])->name("game21");
+Route::get('/yatzy', [YatzyController::class, 'start'])->name("yatzy");
+Route::post('/yatzy', [YatzyController::class, 'run'])->name("yatzy");

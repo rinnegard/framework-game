@@ -1,13 +1,13 @@
 <nav>
     <ul>
         <li>
-            <a href="hello">Hello</a>
+            <a href="{{route("hello")}}">Hello</a>
         </li>
         <li>
-            <a href="{{route("welcome")}}">Laravel</a>
+            <a href="{{route("game21")}}">Game</a>
         </li>
         <li>
-            <a href="game21">Game</a>
+            <a href="{{route("yatzy")}}">Yatzy</a>
         </li>
     </ul>
 </nav>

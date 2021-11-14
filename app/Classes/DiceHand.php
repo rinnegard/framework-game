@@ -1,10 +1,6 @@
 <?php
-
-use App;
-
 declare(strict_types=1);
-
-namespace viri19\Dice;
+namespace App\Classes;
 
 class DiceHand
 {
