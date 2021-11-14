@@ -1,9 +1,10 @@
 <?php
 
 declare(strict_types=1);
-namespace App\Classes;
-use \App\Classes\DiceHand;
 
+namespace App\Classes;
+
+use App\Classes\DiceHand;
 
 use function Mos\Functions\{
     destroySession,
@@ -80,7 +81,6 @@ class Yatzy
             $this->throws++;
             $this->playerDiceHand->roll();
         }
-
     }
 
     public function calcScore(): void

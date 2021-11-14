@@ -68,11 +68,11 @@ phpcbf:
 ifneq ($(wildcard test),)
 	- [ ! -f .phpcs.xml ] || $(PHPCBF) --standard=.phpcs.xml
 else
-	- [ ! -f .phpcs.xml ] || $(PHPCBF) --standard=.phpcs.xml src
+	- [ ! -f .phpcs.xml ] || $(PHPCBF) --standard=.phpcs.xml app/Classes
 endif
 
 phpcpd: prepare
-	$(PHPCPD) src | tee build/phpcpd
+	$(PHPCPD) app/Classes | tee build/phpcpd
 
 phpmd: prepare
 	- [ ! -f .phpmd.xml ] || [ ! -d src ] || $(PHPMD) . text .phpmd.xml | tee build/phpmd
