@@ -6,13 +6,6 @@ namespace App\Classes;
 
 use App\Classes\DiceHand;
 
-use function Mos\Functions\{
-    destroySession,
-    renderView,
-    renderTwigView,
-    url
-};
-
 class Yatzy
 {
     public $playerDiceHand;
