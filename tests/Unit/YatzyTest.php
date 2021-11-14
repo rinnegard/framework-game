@@ -76,12 +76,10 @@ class YatzyTest extends TestCase
         $this->assertIsString($dicehand);
     }
 
-    /**
-     * @runInSeparateProcess
-     */
+
     public function testYatzySaveDice()
     {
-        session_start();
+    
         $_POST[1] = 1;
         $yatzy = new Yatzy();
         $yatzy->play("roll");

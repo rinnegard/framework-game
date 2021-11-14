@@ -1,26 +1,11 @@
 PHPUnit 9.5.10 by Sebastian Bergmann and contributors.
 
-...............E                                                  16 / 16 (100%)
+................                                                  16 / 16 (100%)
 
-Time: 00:02.583, Memory: 38.00 MB
+Time: 00:02.429, Memory: 36.00 MB
 
-There was 1 error:
+OK (16 tests, 24 assertions)
 
-1) App\Classes\YatzyTest::testYatzySaveDice
-PHPUnit\Framework\Exception: PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\vendor\phpunit\phpunit\phpunit on line 2
-PHP Stack trace:
-PHP   1. {main}() C:\cygwin64\tmp\PHP1C13.tmp:0
+Generating code coverage report in Clover XML format ... done [00:00.069]
 
-Fatal error: strict_types declaration must be the very first statement in the script in C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\vendor\phpunit\phpunit\phpunit on line 2
-
-Call Stack:
-    0.0016     750704   1. {main}() C:\cygwin64\tmp\PHP1C13.tmp:0
-
-C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\vendor\phpunit\phpunit\phpunit:91
-
-ERRORS!
-Tests: 16, Assertions: 23, Errors: 1.
-
-Generating code coverage report in Clover XML format ... done [00:00.073]
-
-Generating code coverage report in HTML format ... done [00:00.160]
+Generating code coverage report in HTML format ... done [00:00.154]
