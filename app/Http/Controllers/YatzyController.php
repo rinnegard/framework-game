@@ -22,7 +22,7 @@ class YatzyController extends BaseController
 
     public function run(Request $request)
     {
-        $request->session()->get('yatzy')->play();
-        return view("yatzy");
+        $data = $request->session()->get('yatzy')->play();
+        return view("yatzy", $data);
     }
 }
