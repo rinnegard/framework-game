@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\YatzyController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\HighscoreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,5 @@ Route::get('/yatzy', [YatzyController::class, 'start'])->name("yatzy");
 Route::post('/yatzy', [YatzyController::class, 'run'])->name("yatzy");
 
 Route::get('/books', [BookController::class, 'start'])->name("books");
+
+Route::get('/highscore', [HighscoreController::class, 'start'])->name("highscore");

@@ -12,5 +12,8 @@
         <li>
             <a href="{{route("books")}}">Books</a>
         </li>
+        <li>
+            <a href="{{route("highscore")}}">Highscore</a>
+        </li>
     </ul>
 </nav>
