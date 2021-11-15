@@ -9,5 +9,8 @@
         <li>
             <a href="{{route("yatzy")}}">Yatzy</a>
         </li>
+        <li>
+            <a href="{{route("books")}}">Books</a>
+        </li>
     </ul>
 </nav>
