@@ -1,11 +1,18 @@
 @extends("layouts.basic")
 
 @section("content")
-    <p>
-        Title: {{ $title }}
-    </p>
-    <p>
-        Author: {{ $author }}
-    </p>
+    @foreach ($books as $key => $value)
+        <div class="">
+            <p>
+                Title: {{ $books[$key]["title"] }}
+            </p>
+            <p>
+                Author: {{ $books[$key]["author"] }}
+            </p>
+            <p>
+                isbn: {{ $books[$key]["isbn"] }}
+            </p>
+        </div>
+    @endforeach
 
 @endsection
