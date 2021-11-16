@@ -28,4 +28,4 @@ Route::post('/yatzy', [YatzyController::class, 'run'])->name("yatzy");
 
 Route::get('/books', [BookController::class, 'start'])->name("books");
 
-Route::get('/highscore', [HighscoreController::class, 'start'])->name("highscore");
+Route::get('yatsy/highscore', [HighscoreController::class, 'start'])->name("highscore");

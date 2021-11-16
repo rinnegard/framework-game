@@ -6,6 +6,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use App\Models\Yatzy as YatzyModel;
 
 class HighscoreController extends BaseController
 {
@@ -15,6 +16,7 @@ class HighscoreController extends BaseController
 
     public function start()
     {
-        return view("highscore", ["score" => 9999]);
+        $highscore = YatzyModel::all()->sortByDesc("score");
+        return view("highscore", ["highscore" => $highscore]);
     }
 }

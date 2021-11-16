@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Classes;
 
+use App\Models\Yatzy as YatzyModel;
 use App\Classes\DiceHand;
 
 class Yatzy
@@ -61,6 +62,9 @@ class Yatzy
                 if ($this->score[6] >= 63) {
                     array_push($this->score, 50);
                 }
+                $yatzyModel = new YatzyModel;
+                $yatzyModel->score = $this->score[6];
+                $yatzyModel->save();
             }
         }
 
