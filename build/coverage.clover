@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1636929736">
-  <project timestamp="1636929736">
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Classes\Dice.php">
+<coverage generated="1637025016">
+  <project timestamp="1637025016">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Classes\Dice.php">
       <class name="App\Classes\Dice" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
       </class>
@@ -15,7 +15,7 @@
       <line num="24" type="stmt" count="9"/>
       <metrics loc="26" ncloc="26" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Classes\DiceHand.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Classes\DiceHand.php">
       <class name="App\Classes\DiceHand" namespace="global">
         <metrics complexity="8" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="22" coveredelements="22"/>
       </class>
@@ -43,7 +43,7 @@
       <line num="60" type="stmt" count="2"/>
       <metrics loc="61" ncloc="53" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="22" coveredelements="22"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Classes\GraphicalDice.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Classes\GraphicalDice.php">
       <class name="App\Classes\GraphicalDice" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </class>
@@ -54,29 +54,27 @@
       <line num="17" type="stmt" count="1"/>
       <metrics loc="19" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Classes\Yatzy.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Classes\Yatzy.php">
       <class name="App\Classes\Yatzy" namespace="global">
-        <metrics complexity="24" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="53" coveredelements="50"/>
+        <metrics complexity="26" methods="12" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="42" elements="59" coveredelements="51"/>
       </class>
-      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
-      <line num="22" type="stmt" count="7"/>
-      <line num="23" type="stmt" count="7"/>
-      <line num="25" type="method" name="play" visibility="public" complexity="12" crap="12" count="4"/>
-      <line num="28" type="stmt" count="4"/>
-      <line num="32" type="stmt" count="4"/>
-      <line num="33" type="stmt" count="4"/>
+      <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="7"/>
+      <line num="24" type="stmt" count="7"/>
+      <line num="25" type="stmt" count="7"/>
+      <line num="27" type="method" name="play" visibility="public" complexity="12" crap="12" count="4"/>
+      <line num="30" type="stmt" count="4"/>
       <line num="34" type="stmt" count="4"/>
-      <line num="35" type="stmt" count="2"/>
-      <line num="41" type="stmt" count="4"/>
-      <line num="42" type="stmt" count="2"/>
-      <line num="43" type="stmt" count="1"/>
-      <line num="45" type="stmt" count="2"/>
-      <line num="46" type="stmt" count="2"/>
-      <line num="47" type="stmt" count="1"/>
-      <line num="48" type="stmt" count="1"/>
-      <line num="52" type="stmt" count="4"/>
-      <line num="53" type="stmt" count="1"/>
-      <line num="54" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="4"/>
+      <line num="36" type="stmt" count="4"/>
+      <line num="37" type="stmt" count="2"/>
+      <line num="43" type="stmt" count="4"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="47" type="stmt" count="2"/>
+      <line num="48" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <line num="54" type="stmt" count="4"/>
       <line num="55" type="stmt" count="1"/>
       <line num="56" type="stmt" count="1"/>
       <line num="57" type="stmt" count="1"/>
@@ -85,35 +83,43 @@
       <line num="60" type="stmt" count="1"/>
       <line num="61" type="stmt" count="1"/>
       <line num="62" type="stmt" count="1"/>
-      <line num="67" type="stmt" count="4"/>
-      <line num="71" type="method" name="roll" visibility="public" complexity="2" crap="2" count="4"/>
-      <line num="73" type="stmt" count="4"/>
-      <line num="74" type="stmt" count="4"/>
-      <line num="75" type="stmt" count="4"/>
+      <line num="63" type="stmt" count="1"/>
+      <line num="64" type="stmt" count="1"/>
+      <line num="66" type="stmt" count="1"/>
+      <line num="71" type="stmt" count="4"/>
+      <line num="75" type="method" name="roll" visibility="public" complexity="2" crap="2" count="4"/>
       <line num="77" type="stmt" count="4"/>
-      <line num="79" type="method" name="calcScore" visibility="public" complexity="3" crap="3.33" count="1"/>
-      <line num="81" type="stmt" count="1"/>
-      <line num="82" type="stmt" count="1"/>
-      <line num="83" type="stmt" count="0"/>
-      <line num="84" type="stmt" count="0"/>
-      <line num="87" type="stmt" count="1"/>
-      <line num="88" type="stmt" count="1"/>
-      <line num="90" type="method" name="setScore" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="78" type="stmt" count="4"/>
+      <line num="79" type="stmt" count="4"/>
+      <line num="81" type="stmt" count="4"/>
+      <line num="83" type="method" name="calcScore" visibility="public" complexity="3" crap="3.33" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="87" type="stmt" count="0"/>
+      <line num="88" type="stmt" count="0"/>
+      <line num="91" type="stmt" count="1"/>
       <line num="92" type="stmt" count="1"/>
-      <line num="93" type="stmt" count="1"/>
-      <line num="95" type="method" name="getScore" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="94" type="method" name="setScore" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="96" type="stmt" count="1"/>
       <line num="97" type="stmt" count="1"/>
-      <line num="100" type="method" name="show" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="102" type="stmt" count="1"/>
-      <line num="105" type="method" name="showSaved" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="107" type="stmt" count="1"/>
-      <line num="110" type="method" name="getTurn" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="112" type="stmt" count="1"/>
-      <line num="115" type="method" name="getThrows" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="117" type="stmt" count="1"/>
-      <metrics loc="119" ncloc="118" classes="1" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="53" coveredelements="50"/>
+      <line num="99" type="method" name="getScore" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="101" type="stmt" count="1"/>
+      <line num="104" type="method" name="setTotalScore" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="106" type="stmt" count="0"/>
+      <line num="107" type="stmt" count="0"/>
+      <line num="109" type="method" name="getTotalScore" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="111" type="stmt" count="0"/>
+      <line num="114" type="method" name="show" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="116" type="stmt" count="1"/>
+      <line num="119" type="method" name="showSaved" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="124" type="method" name="getTurn" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="126" type="stmt" count="1"/>
+      <line num="129" type="method" name="getThrows" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <metrics loc="133" ncloc="132" classes="1" methods="12" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="42" elements="59" coveredelements="51"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Console\Kernel.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Console\Kernel.php">
       <class name="App\Console\Kernel" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
       </class>
@@ -125,7 +131,7 @@
       <line num="40" type="stmt" count="1"/>
       <metrics loc="41" ncloc="25" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Exceptions\Handler.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Exceptions\Handler.php">
       <class name="App\Exceptions\Handler" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </class>
@@ -135,13 +141,22 @@
       <line num="40" type="stmt" count="1"/>
       <metrics loc="41" ncloc="26" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Controllers\Controller.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Controllers\BookController.php">
+      <class name="App\Http\Controllers\BookController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="start" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Controllers\Controller.php">
       <class name="App\Http\Controllers\Controller" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="15" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Controllers\GameController.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Controllers\GameController.php">
       <class name="App\Http\Controllers\GameController" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
@@ -151,27 +166,36 @@
       <line num="23" type="stmt" count="0"/>
       <metrics loc="25" ncloc="25" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Controllers\YatzyController.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Controllers\HighscoreController.php">
+      <class name="App\Http\Controllers\HighscoreController" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="start" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="22" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Controllers\YatzyController.php">
       <class name="App\Http\Controllers\YatzyController" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
       </class>
-      <line num="18" type="method" name="start" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <line num="24" type="stmt" count="0"/>
+      <line num="19" type="method" name="start" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="22" type="stmt" count="0"/>
       <line num="25" type="stmt" count="0"/>
       <line num="26" type="stmt" count="0"/>
-      <line num="29" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="31" type="stmt" count="0"/>
-      <line num="32" type="stmt" count="0"/>
-      <metrics loc="34" ncloc="34" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="30" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <metrics loc="42" ncloc="35" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="8" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Kernel.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Kernel.php">
       <class name="App\Http\Kernel" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="67" ncloc="45" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\Authenticate.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\Authenticate.php">
       <class name="App\Http\Middleware\Authenticate" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
@@ -181,19 +205,19 @@
       <line num="20" type="stmt" count="0"/>
       <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\EncryptCookies.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\EncryptCookies.php">
       <class name="App\Http\Middleware\EncryptCookies" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\PreventRequestsDuringMaintenance.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\PreventRequestsDuringMaintenance.php">
       <class name="App\Http\Middleware\PreventRequestsDuringMaintenance" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\RedirectIfAuthenticated.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\RedirectIfAuthenticated.php">
       <class name="App\Http\Middleware\RedirectIfAuthenticated" namespace="global">
         <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
       </class>
@@ -205,13 +229,13 @@
       <line num="30" type="stmt" count="0"/>
       <metrics loc="32" ncloc="24" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\TrimStrings.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\TrimStrings.php">
       <class name="App\Http\Middleware\TrimStrings" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="19" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\TrustHosts.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\TrustHosts.php">
       <class name="App\Http\Middleware\TrustHosts" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </class>
@@ -219,25 +243,37 @@
       <line num="17" type="stmt" count="0"/>
       <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\TrustProxies.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\TrustProxies.php">
       <class name="App\Http\Middleware\TrustProxies" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="28" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Http\Middleware\VerifyCsrfToken.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Http\Middleware\VerifyCsrfToken.php">
       <class name="App\Http\Middleware\VerifyCsrfToken" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Models\User.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Models\Books.php">
+      <class name="App\Models\Books" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Models\User.php">
       <class name="App\Models\User" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="44" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Providers\AppServiceProvider.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Models\Yatzy.php">
+      <class name="App\Models\Yatzy" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Providers\AppServiceProvider.php">
       <class name="App\Providers\AppServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
@@ -247,7 +283,7 @@
       <line num="27" type="stmt" count="1"/>
       <metrics loc="28" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Providers\AuthServiceProvider.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Providers\AuthServiceProvider.php">
       <class name="App\Providers\AuthServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </class>
@@ -256,7 +292,7 @@
       <line num="29" type="stmt" count="1"/>
       <metrics loc="30" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Providers\BroadcastServiceProvider.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Providers\BroadcastServiceProvider.php">
       <class name="App\Providers\BroadcastServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
@@ -266,7 +302,7 @@
       <line num="20" type="stmt" count="0"/>
       <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Providers\EventServiceProvider.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Providers\EventServiceProvider.php">
       <class name="App\Providers\EventServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
@@ -274,7 +310,7 @@
       <line num="31" type="stmt" count="1"/>
       <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\framework\app-game\app\Providers\RouteServiceProvider.php">
+    <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Providers\RouteServiceProvider.php">
       <class name="App\Providers\RouteServiceProvider" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="14" elements="17" coveredelements="15"/>
       </class>
@@ -297,6 +333,6 @@
       <line num="62" type="stmt" count="1"/>
       <metrics loc="63" ncloc="38" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="14" elements="17" coveredelements="15"/>
     </file>
-    <metrics files="24" loc="837" ncloc="651" classes="16" methods="37" coveredmethods="27" conditionals="0" coveredconditionals="0" statements="115" coveredstatements="90" elements="152" coveredelements="117"/>
+    <metrics files="28" loc="929" ncloc="736" classes="18" methods="41" coveredmethods="27" conditionals="0" coveredconditionals="0" statements="123" coveredstatements="91" elements="164" coveredelements="118"/>
   </project>
 </coverage>

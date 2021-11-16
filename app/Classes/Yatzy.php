@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Classes;
 
-use App\Models\Yatzy as YatzyModel;
+
 use App\Classes\DiceHand;
 
 class Yatzy
@@ -14,6 +14,7 @@ class Yatzy
     private array $score = [];
     private int $throws = 0;
     private int $turn = 0;
+    private ?int $totalScore = null;
 
     const WINMESSAGE = "Time for the next round";
     const LOSEMESSAGE = "The game is over.";
@@ -44,6 +45,7 @@ class Yatzy
                 $data["roundEnd"] = self::WINMESSAGE;
             }
             unset($_POST["save"]);
+            unset($_POST["_token"]);
             foreach ($_POST as $key => $value) {
                 array_push($this->savedDice, $value);
                 $this->playerDiceHand->removeDie(intval($key));
@@ -62,9 +64,8 @@ class Yatzy
                 if ($this->score[6] >= 63) {
                     array_push($this->score, 50);
                 }
-                $yatzyModel = new YatzyModel;
-                $yatzyModel->score = $this->score[6];
-                $yatzyModel->save();
+                $this->totalScore = $this->score[6];
+
             }
         }
 
@@ -99,6 +100,16 @@ class Yatzy
     public function getScore(): array
     {
         return $this->score;
+    }
+
+    public function setTotalScore($totalScore): void
+    {
+        $this->totalScore = $totalScore;
+    }
+
+    public function getTotalScore(): ?int
+    {
+        return $this->totalScore;
     }
 
     public function show()

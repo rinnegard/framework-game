@@ -79,8 +79,8 @@ class YatzyTest extends TestCase
 
     public function testYatzySaveDice()
     {
-    
-        $_POST[1] = 1;
+
+        $_POST[2] = 2;
         $yatzy = new Yatzy();
         $yatzy->play("roll");
         $before = count($yatzy->playerDiceHand->getAllDice());

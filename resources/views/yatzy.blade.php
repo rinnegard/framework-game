@@ -39,11 +39,11 @@ $score = Session::get('yatzy')->getScore();
     </form>
     <?php endif; ?>
     <?php if (isset($roundEnd)) : ?>
-        <p><?= $roundEnd ?></p>
         <form  action="" method="post">
             @csrf
             <input type="submit" name="next" value="next">
         </form>
+        <p><?= $roundEnd ?></p>
     <?php endif; ?>
 <?php endif; ?>
 <table>

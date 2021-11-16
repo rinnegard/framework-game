@@ -8,6 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
 use App\Classes\Yatzy;
+use App\Models\Yatzy as YatzyModel;
 
 class YatzyController extends BaseController
 {
@@ -28,6 +29,13 @@ class YatzyController extends BaseController
 
     public function run(Request $request)
     {
+        // $yatsy = $request->session()->get('yatzy');
+        // $data = $yatsy->play();
+        // if (null !== $yatsy->getTotalScore()) {
+        //     $yatzyModel = new YatzyModel();
+        //     $yatzyModel->score = $yatsy->getTotalScore();
+        //     $yatzyModel->save();
+        // }
         $data = $request->session()->get('yatzy')->play();
         return view("yatzy", $data);
     }
