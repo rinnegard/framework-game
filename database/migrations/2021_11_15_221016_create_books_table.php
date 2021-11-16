@@ -18,7 +18,8 @@ class CreateBooksTable extends Migration
             $table->id();
             $table->string("title");
             $table->string("author");
-            $table->integer("isbn");
+            $table->double("isbn");
+            $table->string("url");
         });
     }
 
