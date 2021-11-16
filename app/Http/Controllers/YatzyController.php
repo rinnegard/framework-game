@@ -29,14 +29,13 @@ class YatzyController extends BaseController
 
     public function run(Request $request)
     {
-        // $yatsy = $request->session()->get('yatzy');
-        // $data = $yatsy->play();
-        // if (null !== $yatsy->getTotalScore()) {
-        //     $yatzyModel = new YatzyModel();
-        //     $yatzyModel->score = $yatsy->getTotalScore();
-        //     $yatzyModel->save();
-        // }
-        $data = $request->session()->get('yatzy')->play();
+        $yatsy = $request->session()->get('yatzy');
+        $data = $yatsy->play();
+        if (null !== $yatsy->getTotalScore()) {
+            $yatzyModel = new YatzyModel();
+            $yatzyModel->score = $yatsy->getTotalScore();
+            $yatzyModel->save();
+        }
         return view("yatzy", $data);
     }
 }
