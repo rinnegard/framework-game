@@ -24,7 +24,7 @@ Route::get('/', function () {
 Route::get('/game21', [GameController::class, 'start'])->name("game21");
 
 Route::get('/yatzy', [YatzyController::class, 'start'])->name("yatzy");
-Route::post('/yatzy', [YatzyController::class, 'run'])->name("yatzy");
+Route::post('/yatzy', [YatzyController::class, 'run'])->name("yatzyPost");
 
 Route::get('/books', [BookController::class, 'start'])->name("books");
 
