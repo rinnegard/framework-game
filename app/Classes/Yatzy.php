@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Classes;
 
-
 use App\Classes\DiceHand;
 
 class Yatzy
@@ -65,7 +64,6 @@ class Yatzy
                     array_push($this->score, 50);
                 }
                 $this->totalScore = $this->score[6];
-
             }
         }
 

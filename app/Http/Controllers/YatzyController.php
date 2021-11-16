@@ -33,6 +33,7 @@ class YatzyController extends BaseController
         $data = $yatsy->play();
         if (null !== $yatsy->getTotalScore()) {
             $yatzyModel = new YatzyModel();
+            // @phpstan-ignore-next-line
             $yatzyModel->score = $yatsy->getTotalScore();
             $yatzyModel->save();
         }
