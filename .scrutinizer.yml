@@ -15,7 +15,7 @@ build:
             project_setup:
                 override:
                     - true
-              tests:
+            tests:
                 override:
                   - command: make phpunit
                     coverage:
