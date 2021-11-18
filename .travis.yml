@@ -3,8 +3,8 @@ language: php
 php:
     - 8.0
 
-install:
-    - make install
+before-script:
+    - install -d .bin
 
 script:
     - make test
