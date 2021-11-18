@@ -17,9 +17,10 @@ clean:
 clean-all: clean
 	rm -rf .bin vendor composer.lock
 
-install: install-php-tools
+install: chmod 775 -R vendor
+	install-php-tools
 	composer install
-	chmod 775 -R vendor
+
 
 install-php-tools:
 	install -d .bin
