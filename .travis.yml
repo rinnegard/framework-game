@@ -3,6 +3,10 @@ language: php
 php:
     - 7.4
 
+before_install:
+    - sudo apt-get update
+    - curl --version
+
 install:
     - install -d .bin
     - curl -Lso .bin/phploc https://phar.phpunit.de/phploc.phar && chmod 755 .bin/phploc
