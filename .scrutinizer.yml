@@ -12,6 +12,9 @@ build:
                         use_website_config: true
                     - js-scrutinizer-run
         coverage:
+            project_setup:
+                override:
+                    - true
               tests:
                 override:
                   - command: make phpunit
@@ -37,6 +40,3 @@ coding_style:
         spaces:
             around_operators:
                 concatenation: true
-project_setup:
-    override:
-        - true
