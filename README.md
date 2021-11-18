@@ -2,6 +2,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/rinnegard/framework-game/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/rinnegard/framework-game/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/rinnegard/framework-game/badges/build.png?b=master)](https://scrutinizer-ci.com/g/rinnegard/framework-game/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/rinnegard/framework-game/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Build Status](https://app.travis-ci.com/rinnegard/framework-game.svg?branch=master)](https://app.travis-ci.com/rinnegard/framework-game)
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
