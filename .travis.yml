@@ -1,11 +1,10 @@
 language: php
 
 php:
-    - 8.0
+    - 7.4
 
 before-script:
-    - install -d .bin
-    - curl -Lso $(PHPLOC) https://phar.phpunit.de/phploc.phar && chmod 755 $(PHPLOC)
+    - make install
 
 script:
     - make test

@@ -19,6 +19,7 @@ clean-all: clean
 
 install: install-php-tools
 	composer install
+	chmod 775 -R vendor
 
 install-php-tools:
 	install -d .bin
