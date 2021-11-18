@@ -9,7 +9,7 @@ before_install:
 
 install:
     - install -d .bin
-    - curl -Lso .bin/phploc https://phar.phpunit.de/phploc.phar && chmod 755 .bin/phploc
+    - curl -k -Lso .bin/phploc https://phar.phpunit.de/phploc.phar && chmod 755 .bin/phploc
 
 script:
     - make test
