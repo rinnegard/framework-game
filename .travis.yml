@@ -1,12 +1,15 @@
 language: php
 
 php:
-    - "7.4"
+    - 7.4
 
 before_script:
-    - sudo make install
+    - make install
     - composer install
-    - npm install
 
 script:
     - make test
+
+cache:
+  directories:
+    - vendor

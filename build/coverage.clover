@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1637192457">
-  <project timestamp="1637192457">
+<coverage generated="1637199534">
+  <project timestamp="1637199534">
     <file name="C:\Users\victo\dbwebb-kurser\mvc\me\orm\app-game\app\Classes\Dice.php">
       <class name="App\Classes\Dice" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
